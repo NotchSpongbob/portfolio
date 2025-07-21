@@ -502,6 +502,22 @@ footer{
 	/*text-align: left;*/
 	/*line-height: 10px;*/
 }
+.purple{
+	color:#8021b8;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+.red-p{
+	color:#a11b3f;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	word-wrap: break-word;
+}
 
 
 .image-3{
