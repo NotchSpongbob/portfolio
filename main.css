@@ -237,6 +237,8 @@ main{
 	/*align-content: ; /*change vertical position*/
 }
 
+
+
 .txt-main-2{
 	/*background-color: red;*/
 	display: flex;
@@ -260,6 +262,8 @@ main{
 	font-style: bold;
 	align-self: right;
 }
+
+
 
 .notch-2{
 	font-size: 300%;
@@ -286,6 +290,8 @@ h2{
 	/*text-align: left;*/
 	/*line-height: 10px;*/
 }
+
+
 
 .image{
 	width: 38%;
@@ -537,6 +543,52 @@ video{
 	width: 480px;
 }
 
+
+
+
+
+
+
+
+.story-p{
+	margin-top: 1%;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	word-wrap: break-word;
+	/*text-align: left;*/
+	/*line-height: 10px;*/
+}
+
+.story{
+	margin-bottom: 1%;
+	font-size: 300%;
+	font-weight: 800;
+	word-spacing: 10px;
+	font-family: Tahoma ;
+	font-style: bold;
+	align-self: center;
+}
+
+.txt-story{
+	margin: 5% 5% 5% 5%;
+	/*width: 90%;*/
+	height: fit-content;
+	display: flex;
+	flex-direction: column; /*makes boxes in header to stay in a row*/
+	flex-wrap: wrap;
+	justify-content: space-evenly; /*flex end, flex-start, space-evenly; change horizontal position*/
+	align-content: space-between;
+	align-items: center;
+	color: #8a245a;
+
+}
+
+
+
+
+
 /* MOBILE VERSION */
 @media only screen and (max-width: 980px) {
 		/*main{
@@ -603,6 +655,15 @@ video{
 		margin-left: 10px;
 		margin-right: 10px;
 		width: auto;
+	}
+	.story-p{
+	font-size: 70%;
+	}
+
+	.story{
+	font-size: 200%;
+	font-weight: 800;
+	font-style: bold;
 	}
 	video{
 	width: 500px;
@@ -684,5 +745,15 @@ video{
 	}
 	video{
 	width: 300px;
-}
+	}
+
+	.story-p{
+	font-size: 70%;
+	}
+
+	.story{
+	font-size: 200%;
+	font-weight: 800;
+	font-style: bold;
+	}
 }
